@@ -6,6 +6,25 @@
   <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
   <meta name="viewport"
     content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+
+  <script>
+
+    if (/mobile/i.test(navigator.userAgent)) {
+      window.location = 'mobile.html'
+    }
+
+
+
+    //???????
+
+    if (!/mobile/i.test(navigator.userAgent)) {
+      window.location = 'index.html';
+    }
+
+
+  </script>
+
   <title>Birthday</title>
   <!--Adobe Edge Runtime-->
   <script type="text/javascript" charset="utf-8" src="completedProject_edgePreload.js"></script>
